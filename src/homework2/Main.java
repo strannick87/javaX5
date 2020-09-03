@@ -11,8 +11,9 @@ public class Main {
         lastChar.LastChar(input);
 
         String input2 = value();
-        ThreeDigitSum value2 = new ThreeDigitSum();
-        value2.ThreeDigitSum(input2);
+        ThreeDigitSum.ThreeDigitSum(input2);
+
+        InkrementPositiveValue.Plus(value());
     }
 
     public static String value() {

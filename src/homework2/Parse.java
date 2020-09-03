@@ -7,4 +7,11 @@ public class Parse extends Main{
         System.out.println("последний символ введенного значения: " + lastChar);
     }
 
+    public static void tryParse(String input){
+        try {
+            int curSymb = Integer.parseInt(input);
+        } catch (NumberFormatException e) {
+            System.out.println("Ошибка: Не могу преобразовать '" + input + "' в число");
+        }
+    }
 }
