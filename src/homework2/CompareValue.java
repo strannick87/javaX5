@@ -1,6 +1,6 @@
 package homework2;
 
-public class ThreeDigitSum extends Main{
+public class CompareValue extends Main{
 
     public static void ThreeDigitSum(String input){
         int sum = 0;
@@ -11,6 +11,13 @@ public class ThreeDigitSum extends Main{
             }
 
         System.out.println("сумма первых 3х цифр введенного числа: " + sum);
+    }
+
+    public static void ThreeDigitCompare(String input) {
+        int parsed = Parse.parseThree(input);
+        //Parse parsed = new Parse();
+        System.out.println("первое число + 1: " + parsed);
+
     }
 
 }
