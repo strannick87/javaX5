@@ -2,17 +2,22 @@ package homework2;
 
 public class Parse extends Main{
 
-    public void LastChar(String input){
+    public static int LastChar(String input){
         String lastChar = input.substring(input.length() - 1);
         System.out.println("последний символ введенного значения: " + lastChar);
+        int lastInt = tryParse(lastChar);
+        return lastInt;
     }
 
-    public static void tryParse(String input){
+    public static int tryParse(String input) {
+        int curSymb = 0;
         try {
-            int curSymb = Integer.parseInt(input);
+            curSymb = Integer.parseInt(input);
         } catch (NumberFormatException e) {
             System.out.println("Ошибка: Не могу преобразовать '" + input + "' в число");
+
         }
+        return curSymb;
     }
 
 

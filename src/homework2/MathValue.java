@@ -25,4 +25,32 @@ public class MathValue {
         }
         System.out.println("инкремент положительного числа или декремент отрицательного: " + value);
     }
+
+    public static void TypeValue(String input) {
+        int parsed = Parse.tryParse(input);
+        //int value = Integer.parseInt(input);
+
+        int lastChar = Parse.LastChar(input);
+        if((lastChar%2)==0){
+            if (parsed>0){
+                System.out.println("Число " + input + " четное положительное");
+            }
+            else if(0 == parsed){
+                System.out.println("нулевое число");
+            }
+            else {
+                System.out.println("Число " + input + " четное отрицательное");
+            }
+        }
+        else if((lastChar%1)==0){
+                if (parsed>0) {
+                    System.out.println("Число " + input + " нечетное положительное");
+                }
+                else {
+                    System.out.println("Число " + input + " нечетное отрицательное");
+                }
+            }
+
+    }
+
 }

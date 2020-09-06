@@ -6,16 +6,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String input = value();
-        Parse lastChar = new Parse();
-        lastChar.LastChar(input);
-
-        String input2 = value();
-        CompareValue.ThreeDigitSum(input2);
-
-        MathValue.Plus(value());
-        MathValue.PlusOrMinus(value());
-        CompareValue.ThreeDigitCompare(threeValue());
+//        String input = value();
+//        Parse lastChar = new Parse();
+//        lastChar.LastChar(input);
+//
+//        String input2 = value();
+//        CompareValue.ThreeDigitSum(input2);
+//
+//        MathValue.Plus(value());
+//        MathValue.PlusOrMinus(value());
+//        CompareValue.ThreeDigitCompare(threeValue());
+        MathValue.TypeValue(value());
     }
 
     public static String value() {
