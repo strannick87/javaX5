@@ -1,5 +1,6 @@
 package homework2;
 
+
 public class CompareValue extends Main{
 
     public static void ThreeDigitSum(String input){
@@ -14,9 +15,14 @@ public class CompareValue extends Main{
     }
 
     public static void ThreeDigitCompare(String input) {
-        int parsed = Parse.parseThree(input);
-        //Parse parsed = new Parse();
-        System.out.println("первое число + 1: " + parsed);
+        int[] parsed = Parse.splitValue(input);
+        int min = parsed[0];
+        for (int num : parsed) {
+            if (num < min) {
+                min = num;
+            }
+        }
+            System.out.println("наименьшее число из введенных: " + min);
 
     }
 
