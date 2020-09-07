@@ -6,9 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        String input = value();
-//        Parse lastChar = new Parse();
-//        lastChar.LastChar(input);
+//        Parse.PrintLastChar(value());
 //
 //        String input2 = value();
 //        CompareValue.ThreeDigitSum(input2);
@@ -16,7 +14,10 @@ public class Main {
 //        MathValue.Plus(value());
 //        MathValue.PlusOrMinus(value());
 //        CompareValue.ThreeDigitCompare(threeValue());
-        MathValue.TypeValue(value());
+//        MathValue.PrintType(value());
+
+//        CompareValue.CallPrice(value());
+        MathValue.ArrayParse();
     }
 
     public static String value() {
