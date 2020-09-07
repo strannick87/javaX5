@@ -1,5 +1,6 @@
 package homework2;
 
+import java.util.Arrays;
 
 public class CompareValue extends Main{
 
@@ -41,6 +42,40 @@ public class CompareValue extends Main{
                 break;
         }
 
+    }
+
+    public static void BubbleGum(int[] inputArray) {
+
+        boolean isSorted = false;
+        int buf;
+        while(!isSorted) {
+            isSorted = true;
+            for (int i = 0; i < inputArray.length-1; i++) {
+                if(inputArray[i] > inputArray[i+1]){
+                    isSorted = false;
+
+                    buf = inputArray[i];
+                    inputArray[i] = inputArray[i+1];
+                    inputArray[i+1] = buf;
+                }
+            }
+        }
+        System.out.println("Массив после сортировки"+Arrays.toString(inputArray));
+    }
+
+    public static void SubZeroWins(int[] inputArray) {
+        int[] zeroDawn = new int[inputArray.length];
+        int z=0;
+        System.out.println("Массив с нулями в конце:");
+        for (int i = 0; i < inputArray.length-1; i++) {
+            if (inputArray[i] != 0) {
+                zeroDawn[z] = inputArray[i];
+                z++;
+            }
+        }
+        for (int i = 0; i < zeroDawn.length; i++) {
+            System.out.print(zeroDawn[i]+" ");
+        }
     }
 
 }
