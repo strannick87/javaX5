@@ -6,14 +6,13 @@ public class Parse extends Main{
 
     public static int LastChar(String input){
         String lastChar = input.substring(input.length() - 1);
-        //System.out.println("последний символ введенного значения: " + lastChar);
         int lastInt = tryParse(lastChar);
         return lastInt;
     }
 
     public static void PrintLastChar(String input) {
-        int lastInt = LastChar(input);
-        System.out.println("последний символ введенного значения: " + lastInt);
+        String lastChar = input.substring(input.length() - 1);
+        System.out.println("последний символ введенного значения: " + lastChar);
     }
 
     public static int tryParse(String input) {

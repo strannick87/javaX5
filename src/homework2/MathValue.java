@@ -5,6 +5,7 @@ import java.util.Arrays;
 
 public class MathValue {
     public static void Plus(String input) {
+
         Parse.tryParse(input);
         int value = Integer.parseInt(input);
         if (value > 0) {
@@ -15,7 +16,7 @@ public class MathValue {
 
     public static void PlusOrMinus(String input) {
 
-        //Parse.tryParse(input);
+
         int value = Integer.parseInt(input);
         if (input == null) {
             value = 10;
