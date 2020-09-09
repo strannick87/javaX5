@@ -1,7 +1,6 @@
 package homework2;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class MathValue {
     public static void Plus(String input) {
