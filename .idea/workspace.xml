@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="чуток причесал">
-      <change afterPath="$PROJECT_DIR$/src/homework3/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework3/Phone.java" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="задание 2 - исправлено">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework2/CompareValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework2/CompareValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework2/MathValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework2/MathValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework2/Parse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework2/Parse.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,22 +76,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homework2/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="35" column="42" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="35" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework3/Phone.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="335">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#930#931#0" expanded="true" />
                 <element signature="e#997#998#0" expanded="true" />
@@ -100,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework3/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -113,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/src/homework3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="267">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -121,8 +109,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework2/MathValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="-223">
+              <caret line="94" column="20" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/homework2/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,8 +130,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework2/CompareValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+            <state relative-caret-position="277">
+              <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework2/Parse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="124">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -157,7 +160,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>for</find>
-      <find>try</find>
       <find>arr</find>
       <find>repl</find>
       <find>sub</find>
@@ -165,10 +167,14 @@
       <find>Введите пожалуйста 3 числа через пробел</find>
       <find>[0]</find>
       <find>public C</find>
-      <find>parsed</find>
-      <find>char</find>
       <find>spl</find>
       <find>split</find>
+      <find>camel</find>
+      <find>console.</find>
+      <find>try</find>
+      <find>String</find>
+      <find>char</find>
+      <find>parsed</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -188,14 +194,14 @@
         <option value="$PROJECT_DIR$/src/homework2/LastChar.java" />
         <option value="$PROJECT_DIR$/src/homework2/InkrementPositiveValue.java" />
         <option value="$PROJECT_DIR$/src/homework2/ThreeDigitSum.java" />
-        <option value="$PROJECT_DIR$/src/homework2/CompareValue.java" />
-        <option value="$PROJECT_DIR$/src/homework2/Main.java" />
-        <option value="$PROJECT_DIR$/src/homework2/Parse.java" />
-        <option value="$PROJECT_DIR$/src/homework2/MathValue.java" />
         <option value="$PROJECT_DIR$/src/homework3/receiveCallImpl.java" />
         <option value="$PROJECT_DIR$/src/homework3/Main.java" />
         <option value="$PROJECT_DIR$/src/homework3/Phone.java" />
         <option value="$PROJECT_DIR$/src/homework3/Animal.java" />
+        <option value="$PROJECT_DIR$/src/homework2/Parse.java" />
+        <option value="$PROJECT_DIR$/src/homework2/MathValue.java" />
+        <option value="$PROJECT_DIR$/src/homework2/CompareValue.java" />
+        <option value="$PROJECT_DIR$/src/homework2/Main.java" />
       </list>
     </option>
   </component>
@@ -267,7 +273,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599673129228" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599728008745" />
     <property name="dynamic.classpath" value="false" />
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="project.structure.last.edited" value="Project" />
@@ -293,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -459,9 +465,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.CompareValue" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Parse" />
         <item itemvalue="Application.LastChar" />
       </list>
@@ -528,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599546992907</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="задание 3.1">
+      <created>1599673216500</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599673216501</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -538,7 +551,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.19288956" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.19288956" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -547,8 +560,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.273752" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39871383" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.273752" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39774558" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -584,7 +597,9 @@
     <MESSAGE value="5 done" />
     <MESSAGE value="done 8" />
     <MESSAGE value="чуток причесал" />
-    <option name="LAST_COMMIT_MESSAGE" value="чуток причесал" />
+    <MESSAGE value="задание 3.1" />
+    <MESSAGE value="задание 2 - исправлено" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание 2 - исправлено" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -646,20 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework2/Parse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework2/CompareValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/homework3/receiveCallImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -667,34 +668,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework2/MathValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="35" column="42" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="35" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/homework3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/homework3/Phone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#930#931#0" expanded="true" />
             <element signature="e#997#998#0" expanded="true" />
@@ -704,8 +688,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/homework3/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework2/Parse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework2/MathValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223">
+          <caret line="94" column="20" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework2/CompareValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

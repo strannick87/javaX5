@@ -3,17 +3,16 @@ package homework2;
 import java.util.ArrayList;
 
 public class MathValue {
-    public static void Plus(String input) {
+    public static void inkrementValue(String input) {
 
-        Parse.tryParse(input);
-        int value = Integer.parseInt(input);
+        int value = Parse.tryParse(input);
         if (value > 0) {
             value = value + 1;
         }
         System.out.println("инкремент положительного числа или само отрицательное: " + value);
     }
 
-    public static void PlusOrMinus(String input) {
+    public static void plusOrMinusValue(String input) {
 
 
         int value = Integer.parseInt(input);
@@ -27,51 +26,51 @@ public class MathValue {
         System.out.println("инкремент положительного числа или декремент отрицательного: " + value);
     }
 
-    public static String TypeValue(String input) {
-        int parsed = Parse.tryParse(input);
-        String type = "";
-        int lastChar = Parse.LastChar(input);
+    public static int findTypeValue(int input) {
+        //int parsed = Parse.tryParse(input);
+        int type = 0;
+        int lastChar = input % 10;
         if ((lastChar % 2) == 0) {
-            if (parsed > 0) {
-                type = "+2";
-            } else if (0 == parsed) {
-                type = "0";
+            if (input > 0) {
+                type = 2;
+            } else if (0 == input) {
+                type = 0;
             } else {
-                type = "-2";
+                type = -2;
             }
         } else if ((lastChar % 1) == 0) {
-            if (parsed > 0) {
-                type = "+1";
+            if (input > 0) {
+                type = 1;
             } else {
-                type = "-1";
+                type = -1;
             }
         }
         return type;
     }
 
-    public static void PrintType(String input) {
+    public static void printType(int input) {
 
-        String type = TypeValue(input);
+        int type = findTypeValue(input);
         switch (type) {
-            case "+2":
+            case 2:
                 System.out.println("Число " + input + " четное положительное");
                 break;
-            case "-2":
+            case -2:
                 System.out.println("Число " + input + " четное отрицательное");
                 break;
-            case "+1":
+            case 1:
                 System.out.println("Число " + input + " нечетное положительное");
                 break;
-            case "-1":
+            case -1:
                 System.out.println("Число " + input + " нечетное отрицательное");
                 break;
-            case "0":
+            case 0:
                 System.out.println("нулевое число");
                 break;
         }
     }
 
-    public static void ArrayParse() {
+    public static void goArrayParse() {
         int[] arr = {1, -10, 5, 6, 45, 23, -45, -34, 0, 32, 56, -1, 2, -2};
 
         int max = arr[0];
@@ -93,14 +92,14 @@ public class MathValue {
         for (int i = 0; i < arr.length; i++) {
             int curVal = arr[i];
 
-            String valStr = curVal + "";
+            //String valStr = curVal + "";
             if (curVal > 0) {
                 countPos = countPos +1;
-                if (TypeValue(valStr) == "+1" || TypeValue(valStr) == "+2") {
+                if (curVal == 1 || curVal == 2) {
                     posArr = posArr + curVal;
                 }
             }else if(curVal < 0){
-                if (TypeValue(valStr) == "-2") {
+                if (curVal == -2) {
                     evenMinArr = evenMinArr + curVal;
                 }
 

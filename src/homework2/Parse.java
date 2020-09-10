@@ -4,13 +4,13 @@ import java.util.Arrays;
 
 public class Parse extends Main{
 
-    public static int LastChar(String input){
+    public static int findLastChar(String input){
         String lastChar = input.substring(input.length() - 1);
         int lastInt = tryParse(lastChar);
         return lastInt;
     }
 
-    public static void PrintLastChar(String input) {
+    public static void printLastChar(String input) {
         String lastChar = input.substring(input.length() - 1);
         System.out.println("последний символ введенного значения: " + lastChar);
     }
