@@ -1,29 +1,68 @@
 package homework3;
 
 public class Animal {
-    static String food;
-    static String location;
-    static String say = "smth";
+    public static String food;
+    public String location;
 
-    public static class Cat extends Animal {
-        String say = "Мяу";
+    public static class Animals implements Eat,Sleep{
+         public String makeNoise() {
+             return this.getClass().getSimpleName() + " говорит ";
+         }
+
     }
 
-    public class Dog extends Animal {
-        String say = "Гав";
+    public static class Cat extends Animals {
+        public String makeNoise() {
+            return super.makeNoise() + "Мяу";
+        }
+        String food = "рыбку";
+        String location = "дома";
+        public void eat() {
+            eat(food);
+        }
+        public void sleep() {
+            eat(location);
+        }
     }
 
-    public class Horse extends Animal {
+    public static class Dog extends Animals {
+        public String makeNoise() {
+            return super.makeNoise() + "Гав";
+        }
+        String food = "косточку";
+        String location = "в будке";
+        public void eat() {
+            eat(food);
+        }
+        public void sleep() {
+            eat(location);
+        }
+    }
+
+    public static class Horse extends Animals {
         String say = "Тыгыдык";
+        public String makeNoise() {
+            return this.getClass().getSimpleName() + " делает "+say;
+        }
+        String food = "солому";
+        String location = "в стойле";
+        public void eat() {
+            eat(food);
+        }
+        public void sleep() {
+            eat(location);
+        }
     }
 
-    public static void makeNoise() {
-        System.out.println("Животное говорит "+say);
-    }
-    public static void eat(String[] args) {
 
+    public interface Eat {
+        default void eat(String food) {
+            System.out.println(this.getClass().getSimpleName() + " ест " + food);
+        }
     }
-    public static void sleep(String[] args) {
-
+    public interface Sleep {
+        default void sleep(String location) {
+            System.out.println(this.getClass().getSimpleName() + " спит " + location);
+        }
     }
 }
