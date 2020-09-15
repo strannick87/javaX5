@@ -1,7 +1,5 @@
 package homework2;
 
-import java.util.Arrays;
-
 public class Parse extends Main{
 
     public static int findLastChar(String input){

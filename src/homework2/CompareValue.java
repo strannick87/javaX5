@@ -1,7 +1,6 @@
 package homework2;
 
 import java.util.Arrays;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class CompareValue extends Main{
